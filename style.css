@@ -1,0 +1,114 @@
+@font-face {
+    font-family: robot;
+    src: url(Roboto-Regular.ttf);
+}
+
+body {
+    font-family: 'robot', 'sans-serif';
+    background-color: #000;
+    /*#262626*/
+    color: rgb(229, 240, 208);
+    /*color: #02fabc;*/
+}
+
+.photo {
+    height: 100vh;
+    width: 100%;
+    background-image: url(profile_001.png);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.portfolio {
+    color: yellowgreen;
+    font-size: 30px;
+    letter-spacing: 10px;
+    cursor: pointer;
+}
+
+span {
+    color: #02fabc;
+}
+
+nav ul li {
+    /*list-style-type: none;*/
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: #c0dbd3;
+    text-decoration: none;
+    /*font-weight: blod;*/
+    /* text-transform: capitalize;*/
+}
+
+nav ul li a:hover {
+    color: #02fabc;
+    transition: 50ms;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: #000;
+    color: #02fabc;
+    text-decoration: none;
+    border: 2px solid trasparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px 10px 30px 10px;
+   /* transition: transform 50ms;*/
+}
+
+.btn:hover {
+    border-radius: 50px;
+    background-color: #02fabc;
+    color: #000;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1{
+    color: #c0dbd3;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h3{
+    color: #c0dbd3;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+h4{
+    color: #c0dbd3;
+  letter-spacing: 2px;
+    font-size: 20px;
+}
+
+p{
+    color:#c0dbd3
+}
+
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
